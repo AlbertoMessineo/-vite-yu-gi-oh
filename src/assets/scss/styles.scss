@@ -19,9 +19,18 @@
         background-color: white;
     }
 }
-
+.found{
+    background-color: rgb(34, 28, 28);
+    h3{
+        color: white;
+    }
+}
 // SINGLE CARD
 .yugi-card{
     background-color: $orange;
     width: calc(100% / 5);
+    
+    h4{
+        color: white;
+    }
 }

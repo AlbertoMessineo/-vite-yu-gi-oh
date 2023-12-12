@@ -21,8 +21,14 @@ import axios from 'axios';
 </script>
 
 <template>
+    <!-- <div class="container found">
+        Found 39 cards
+    </div> -->
     <div class="d-flex flex-wrap justify-content-around gap-3 p-5">
-        <Card v-for="card in cards"/>
+        <Card v-for="card in cards" 
+        :name="card.name"
+        :archetipo="card.archetype"
+        :img="card.card_images.image_url"/>
     </div>
      
 </template>

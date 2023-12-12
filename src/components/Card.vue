@@ -1,14 +1,17 @@
 <script>
       export default{
         name: 'Card',
+        props: ['name' , 'archetipo' , 'img'],
     };
 </script>
 
 <template>
   <div class="yugi-card">
-    <div>img</div>
-    <h3>Nome</h3>
-    <h6>Archetipo</h6>
+    <div>
+      <img :src="img" :alt="name">
+    </div>
+    <h4> {{ name }}</h4>
+    <h6 class="align-self-end">{{ archetipo }}</h6>
   </div>
 </template>
 
