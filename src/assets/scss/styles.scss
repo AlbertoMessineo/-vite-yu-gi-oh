@@ -1,4 +1,6 @@
-
+@use './partial/common' as *;
+@use './partial/typography' as *;
+@use './partial/colors' as *;
 // HEADER
 .title{
     display: flex;
@@ -8,4 +10,18 @@
             
         }
     
+}
+// MAIN
+.main{
+    background-color: $orange;
+
+    .collection{
+        background-color: white;
+    }
+}
+
+// SINGLE CARD
+.yugi-card{
+    background-color: $orange;
+    width: calc(100% / 5);
 }

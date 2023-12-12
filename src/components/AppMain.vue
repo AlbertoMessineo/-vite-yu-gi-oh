@@ -10,9 +10,18 @@
 </script>
 
 <template>
+    
+        
+   
     <!-- contenitore carte -->
-    <div class="container">
-       <CardsCollection /> 
+    <div class="container main p-4">
+        <div class="col-2 mb-4 pt-3">
+            <select id="inputState" class="form-select">
+                <option selected>Alien</option>
+                <option>...</option>
+            </select>
+        </div>
+       <CardsCollection class="collection"/> 
     </div>
     
 </template>
