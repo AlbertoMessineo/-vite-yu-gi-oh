@@ -28,7 +28,7 @@ import axios from 'axios';
         <Card v-for="card in cards" 
         :name="card.name"
         :archetipo="card.archetype"
-        :img="card.card_images.image_url"/>
+        :img="card.card_images[0].image_url"/>
     </div>
      
 </template>
