@@ -9,7 +9,7 @@ import axios from 'axios';
         data(){
             return{
                 cards:[],
-                APIurl:'https://db.ygoprodeck.com/api/v7/cardinfo.php?num=20&offset=0',
+                APIurl:'https://db.ygoprodeck.com/api/v7/cardinfo.php?num=40&offset=0',
             };
         },
         created(){

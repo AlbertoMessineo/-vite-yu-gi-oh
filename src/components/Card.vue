@@ -6,7 +6,7 @@
 </script>
 
 <template>
-  <div class="yugi-card">
+  <div class="yugi-card m-2">
     <div>
       <img class="card-img" :src="img" :alt="name">
     </div>

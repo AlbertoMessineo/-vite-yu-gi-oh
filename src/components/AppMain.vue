@@ -22,7 +22,7 @@
             </select>
         </div>
         <div class="container found p-4">
-            <h3>Found 39 cards</h3>
+            <h3>Found 40 cards</h3>
         </div>
        <CardsCollection class="collection"/> 
     </div>
